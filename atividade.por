@@ -23,13 +23,13 @@ programa
 		escreva("informe sua idade: ")
 		leia(idade)
 		se (idade < 18)
-	{
+		{
 		escreva("voce e menor de idade")
-	}
+		}
 		senao
-	{
+		{
 		escreva("voce e maior de idade")
-	}
+		}
 		escreva("\n")
 	
 		escreva ("Digite seu rg:")
@@ -59,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 177; 
+ * @POSICAO-CURSOR = 506; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
