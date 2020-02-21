@@ -1,4 +1,3 @@
 # Logica-de-programa-o
-Baixar o portugol studio
-Escrever o codigo da matricula no portugol studio
-escrever codigos no terminal do linux para fazer o upload do arquivo para o github
+## Como subir o Código para o github
+Baixar o portugol studio, baixar o arquivo, abrir utilizando o portugol
