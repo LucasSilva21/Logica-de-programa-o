@@ -11,6 +11,7 @@ programa
 		cadeia telefone
 		inteiro curso
 		inteiro menor, idade
+		cadeia curso_name
 		
 		escreva ("Bem-vindo ao sistema de matrícula \n")
 	
@@ -43,29 +44,34 @@ programa
 	
 		escreva ("Digite seu telefone:")
 		leia (telefone)
-
-		escreva("1) Mecanica \n")
-		escreva("2) Eletrica \n")
-		escreva("3) Administracao\n")
-		escreva("Escolha um curso: ")
-		leia(curso)
-		
-		escolha (curso)
-		{
-			caso 1:
-				escreva("Mecanica")
-				pare
-			caso 2:
-				escreva("Eletrica")
-				pare
-			caso 3:
-				escreva("Admnisitracao")
-				pare	
-			caso contrario:
-				escreva("curso indisponivel")	
 				
-		}
 		escreva("\n")
+	
+		faca
+		{
+			escreva("1) Mecanica \n")
+			escreva("2) Eletrica \n")
+			escreva("3) Administracao\n")
+			escreva("Escolha um curso: ")
+			leia(curso)
+			escolha (curso)
+			{
+				caso 1:
+					curso_name = "Mecanica"
+					pare
+				caso 2:
+					curso_name = "Eletrica"
+					pare
+				caso 3:
+					curso_name = "Admnisitracao"
+					pare	
+				caso contrario:
+					curso_name = "curso indisponivel"	
+					limpa()
+					escreva("try again")
+				
+			}
+		} 	enquanto(curso_name == "curso indisponivel"	)
 		
 		escreva("matricula realizada \n")
 
@@ -88,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 468; 
+ * @POSICAO-CURSOR = 749; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
