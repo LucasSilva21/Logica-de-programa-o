@@ -1,0 +1,47 @@
+#area
+{
+    position:relativee;
+    left:50%;
+    top:10em;
+    width:320px;
+    height:250px;
+}
+#area .formulario
+{
+    position:absolute;
+    display:block;
+}
+
+fieldset
+{
+    background-color:gray;
+    width:500px;
+    height:200px;
+}
+legend
+{
+    font-weight: bold;
+    font-family: "Segoe UI", "Arial", "Times New Roman";
+    color:black;
+    padding: 45px;
+    padding-bottom: 100px;
+    padding-bottom: 25px;
+
+}
+.formulario input.text 
+{
+    background-color:blanchedalmond;
+    width:200px;
+}
+#formulario input.curso
+{
+    background-color:black;
+    margin-top:25px;
+    width:200;
+
+}
+#formulario input.DataDeNascimento
+{
+    position:absolute;
+    background-color:black;
+}
